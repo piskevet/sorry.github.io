@@ -1,28 +1,3 @@
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.container {
-  text-align: center;
-}
-
-.apology-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.apology-button:hover {
-  background-color: #45a049;
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -36,3 +11,6 @@ body {
   animation: fadeIn 1s ease-in-out forwards;
 }
 
+.container p {
+  color: #999; /* Soluk gri renk */
+}
