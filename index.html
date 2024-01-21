@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Özür Dileme Sitesi</title>
+  <title>Özür Dilerim</title>
 </head>
 <body>
   <div class="container">
     <h1>Özür Dileme Sitesi</h1>
     <p>Merhaba, çok üzgünüm. Sana olan davranışım için gerçekten pişmanım. Lütfen affet beni.</p>
-    <button class="apology-button">Özür Dile</button>
+    <button class="apology-button" onclick="showThankYouMessage()">Özrü Kabul Et</button>
+    <p id="thankYouMessage" style="display: none;">Teşekkür ederim!</p>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
